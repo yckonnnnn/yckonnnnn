@@ -29,12 +29,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn&theme=github-dark" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn&theme=github_dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn" width="32%" alt="github stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn&theme=github-dark" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn&theme=github_dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn" width="32%" alt="repos per language" />
   </picture>
