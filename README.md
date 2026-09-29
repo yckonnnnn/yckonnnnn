@@ -29,14 +29,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yckonnnnn&show_icons=true&hide_border=true&bg_color=00000000&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yckonnnnn&show_icons=true&hide_border=true&bg_color=00000000" />
-    <img src="https://github-readme-stats.vercel.app/api?username=yckonnnnn&show_icons=true&hide_border=true" height="165" alt="github stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn&theme=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yckonnnnn" width="32%" alt="github stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn&theme=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yckonnnnn" width="32%" alt="repos per language" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yckonnnnn&hide_border=true&background=00000000&theme=github-dark-blue" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yckonnnnn&hide_border=true&background=00000000" />
-    <img src="https://streak-stats.demolab.com?user=yckonnnnn&hide_border=true" height="165" alt="streak stats" />
+    <img src="https://streak-stats.demolab.com?user=yckonnnnn&hide_border=true" width="32%" alt="streak stats" />
   </picture>
 </p>
 
@@ -46,13 +51,13 @@
 
 <p align="center">
   <a href="https://github.com/yckonnnnn/FoytonApi-go">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yckonnnnn&repo=FoytonApi-go&hide_border=true" alt="FoytonApi-go" />
+    <img src="https://opengraph.githubassets.com/1/yckonnnnn/FoytonApi-go" width="32%" alt="FoytonApi-go" />
   </a>
   <a href="https://github.com/yckonnnnn/AI_Pet_Doctor">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yckonnnnn&repo=AI_Pet_Doctor&hide_border=true" alt="AI_Pet_Doctor" />
+    <img src="https://opengraph.githubassets.com/1/yckonnnnn/AI_Pet_Doctor" width="32%" alt="AI_Pet_Doctor" />
   </a>
   <a href="https://github.com/yckonnnnn/api-designer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yckonnnnn&repo=api-designer&hide_border=true" alt="api-designer" />
+    <img src="https://opengraph.githubassets.com/1/yckonnnnn/api-designer" width="32%" alt="api-designer" />
   </a>
 </p>
 
