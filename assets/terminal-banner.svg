@@ -1,0 +1,83 @@
+<svg width="880" height="420" viewBox="0 0 880 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zack's terminal profile card">
+  <defs>
+    <linearGradient id="winBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="pixelG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eea8a"/>
+      <stop offset="1" stop-color="#2ea043"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="winClip">
+      <rect x="20" y="20" width="840" height="380" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .win      { fill: url(#winBg); }
+    .win-stroke { fill: none; stroke: #30363d; stroke-width: 1.5; }
+    .titlebar { fill: #1c2128; }
+    .tb-line  { stroke: #30363d; stroke-width: 1; }
+    .tb-title { font: 500 14px 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; fill: #6e7681; }
+    .prompt   { font: 600 19px 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; fill: #4ade80; }
+    .key      { font: 400 19px 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; fill: #8b949e; }
+    .val      { font: 500 19px 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; fill: #e6edf3; }
+    .cursor   { fill: #4ade80; }
+    @media (prefers-color-scheme: light) {
+      .win        { fill: #ffffff; }
+      .win-stroke { stroke: #d0d7de; }
+      .titlebar   { fill: #f6f8fa; }
+      .tb-line    { stroke: #d8dee4; }
+      .tb-title   { fill: #8c959f; }
+      .prompt     { fill: #1a7f37; }
+      .key        { fill: #57606a; }
+      .val        { fill: #24292f; }
+      .cursor     { fill: #1a7f37; }
+    }
+  </style>
+
+  <!-- window -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="20" width="840" height="380" rx="14" class="win"/>
+  </g>
+  <g clip-path="url(#winClip)">
+    <rect x="20" y="20" width="840" height="46" class="titlebar"/>
+  </g>
+  <rect x="20.75" y="20.75" width="838.5" height="378.5" rx="14" class="win-stroke"/>
+  <line x1="20" y1="66" x2="860" y2="66" class="tb-line"/>
+
+  <!-- traffic lights -->
+  <circle cx="52" cy="43" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="43" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="43" r="7" fill="#27c93f"/>
+  <text x="440" y="48" text-anchor="middle" class="tb-title">zack@dev: ~</text>
+
+  <!-- pixel "Z" -->
+  <g>
+    <rect x="88"  y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="104" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="120" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="136" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="152" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="168" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="184" y="176" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="168" y="192" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="152" y="208" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="136" y="224" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="120" y="240" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="104" y="256" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <rect x="88"  y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="104" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="120" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="136" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="152" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="168" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/><rect x="184" y="272" width="16" height="16" rx="3" fill="url(#pixelG)"/>
+    <text x="146" y="322" text-anchor="middle" style="font: 600 13px 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; letter-spacing: 4px;" fill="#3fb950" class="key">ZACK</text>
+  </g>
+
+  <!-- terminal text -->
+  <text x="300" y="126" class="prompt">➜  ~<tspan class="val" dx="12">whoami</tspan></text>
+
+  <text x="300" y="166" class="key">Name<tspan class="val" x="392">Zack</tspan></text>
+  <text x="300" y="196" class="key">Role<tspan class="val" x="392">Full-Stack Developer</tspan></text>
+  <text x="300" y="226" class="key">Stack<tspan class="val" x="392">TypeScript · Python · Go</tspan></text>
+  <text x="300" y="256" class="key">Focus<tspan class="val" x="392">AI Apps · 出海 · 自动化</tspan></text>
+  <text x="300" y="286" class="key">OS<tspan class="val" x="392">macOS</tspan></text>
+
+  <text x="300" y="340" class="prompt">➜  ~</text>
+  <rect x="364" y="324" width="11" height="22" class="cursor">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
