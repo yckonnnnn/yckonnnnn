@@ -42,17 +42,17 @@
 
 <p align="center">
   <a href="https://github.com/yckonnnnn/DeepTrading-AI">
-    <img src="https://opengraph.githubassets.com/1/yckonnnnn/DeepTrading-AI" width="48%" alt="DeepTrading-AI" />
+    <img src="assets/cards/DeepTrading_AI.svg" width="48%" alt="DeepTrading-AI" />
   </a>
   <a href="https://github.com/yckonnnnn/wechat_store">
-    <img src="https://opengraph.githubassets.com/1/yckonnnnn/wechat_store" width="48%" alt="wechat_store" />
+    <img src="assets/cards/wechat_store.svg" width="48%" alt="wechat_store" />
   </a>
   <br/>
   <a href="https://github.com/yckonnnnn/douyin-video-analyzer">
-    <img src="https://opengraph.githubassets.com/1/yckonnnnn/douyin-video-analyzer" width="48%" alt="douyin-video-analyzer" />
+    <img src="assets/cards/douyin-video-analyzer.svg" width="48%" alt="douyin-video-analyzer" />
   </a>
   <a href="https://github.com/yckonnnnn/drummaster_ai">
-    <img src="https://opengraph.githubassets.com/1/yckonnnnn/drummaster_ai" width="48%" alt="drummaster_ai" />
+    <img src="assets/cards/DrumMaster_AI.svg" width="48%" alt="drummaster_ai" />
   </a>
 </p>
 
